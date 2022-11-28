@@ -23,6 +23,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name : Install Homebrew
+        run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
       - name: Install k6 by homebrew
         run: brew install k6
 
