@@ -11,9 +11,7 @@ There are 4 main types of Performance Tests:
 
 # To run tests locally:
 
-```
-git clone https://github.com/chiragverma/load-testing.git
-```
+Clone the Repo, then 
 
 ```
 cd load-testing
