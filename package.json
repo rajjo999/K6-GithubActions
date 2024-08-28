@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@influxdata/influxdb-client": "^1.32.0"
+    "@influxdata/influxdb-client": "^1.32.0",
+    "k6-html-reporter": "^1.0.5"
   }
 }
